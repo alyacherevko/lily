@@ -1,0 +1,41 @@
+{
+  "name": "lily",
+  "version": "1.0.0",
+  "description": "kitchens and furniture",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --mode development --open --hot --progress --colors --config ./webpack.config.js",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alyacherevko/lily.git"
+  },
+  "keywords": [
+    "lily"
+  ],
+  "author": "Alya Cherevko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alyacherevko/lily/issues"
+  },
+  "homepage": "https://github.com/alyacherevko/lily#readme",
+  "dependencies": {
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.3",
+    "@babel/plugin-transform-runtime": "^7.8.3",
+    "@babel/preset-env": "^7.8.3",
+    "@babel/preset-react": "^7.8.3",
+    "@babel/runtime": "^7.8.3",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1"
+  }
+}
